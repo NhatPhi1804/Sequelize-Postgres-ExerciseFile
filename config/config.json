@@ -13,17 +13,29 @@
     }
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "phi",
+    "password": "nQsGyIwliD6GNF8P3FGfEYF3uetnRlvJ",
+    "database": "blogs_2ras",
+    "host": "dpg-clg82cmf27hc739hhe80-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "phi",
+    "password": "nQsGyIwliD6GNF8P3FGfEYF3uetnRlvJ",
+    "database": "blogs_2ras",
+    "host": "dpg-clg82cmf27hc739hhe80-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
   }
 }
